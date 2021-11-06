@@ -1,0 +1,166 @@
+(ExpressProject "ESP32-PicoDK"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S022 (3984475)  [10/10/2021]-[11/06/21]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "e:\pcb\library\allegro_lib\lib\connector.olb"
+        (Type "Schematic Library"))
+      (File "e:\pcb\library\allegro_lib\lib\diode.olb"
+        (Type "Schematic Library"))
+      (File "e:\pcb\library\allegro_lib\lib\driver.olb"
+        (Type "Schematic Library"))
+      (File "e:\pcb\library\allegro_lib\lib\lrc.olb"
+        (Type "Schematic Library"))
+      (File "e:\pcb\library\allegro_lib\lib\microcontroller.olb"
+        (Type "Schematic Library"))
+      (File "e:\pcb\library\allegro_lib\lib\power_supply.olb"
+        (Type "Schematic Library"))
+      (File "e:\pcb\library\allegro_lib\lib\sensor.olb"
+        (Type "Schematic Library"))
+      (File "e:\pcb\library\allegro_lib\lib\transistor.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\esp32-picodk.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (CON12
+      (FullPartName "CON12.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON18
+      (FullPartName "CON18.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (JUMPER1
+      (FullPartName "JUMPER1.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (NPN
+      (FullPartName "NPN.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RES
+      (FullPartName "RES.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\LRC.OLB")
+      (DeviceIndex "0"))
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\LRC.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RAINSUN
+      (FullPartName "RAINSUN.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\SENSOR.OLB")
+      (DeviceIndex "0"))
+    (LP2992IM5-3P3
+      (FullPartName "LP2992IM5-3P3.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\POWER_SUPPLY.OLB")
+      (DeviceIndex "0"))
+    (MPU-6050
+      (FullPartName "MPU-6050.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\SENSOR.OLB")
+      (DeviceIndex "0"))
+    (TypeC_16P
+      (FullPartName "TypeC_16P.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (SN65HVD232DR
+      (FullPartName "SN65HVD232DR.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\DRIVER.OLB")
+      (DeviceIndex "0"))
+    (CP2102N-QFN28
+      (FullPartName "CP2102N-QFN28.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\DRIVER.OLB")
+      (DeviceIndex "0"))
+    (ESP32-PICO-D4
+      (FullPartName "ESP32-PICO-D4.Normal")
+      (LibraryName "E:\PCB\LIBRARY\ALLEGRO_LIB\LIB\MICROCONTROLLER.OLB")
+      (DeviceIndex "0"))
+    (AN9520-245
+      (FullPartName "AN9520-245.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (CP2102N-A02-GQFN28
+      (FullPartName "CP2102N-A02-GQFN28.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (CP2102N-A02-GQFN24R
+      (FullPartName "CP2102N-A02-GQFN24R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Joker")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\PCB\Project\ESP32-PicoDK\OrCAD\esp32-picodk.dsn")
+      (Path "Design Resources"
+         "E:\PCB\Project\ESP32-PicoDK\OrCAD\esp32-picodk.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "E:\PCB\Project\ESP32-PicoDK\OrCAD\esp32-picodk.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "e:\pcb\library\allegro_lib\lib\connector.olb")
+      (Path "Design Resources" "Library"
+         "e:\pcb\library\allegro_lib\lib\diode.olb")
+      (Path "Design Resources" "Library"
+         "e:\pcb\library\allegro_lib\lib\driver.olb")
+      (Path "Design Resources" "Library"
+         "e:\pcb\library\allegro_lib\lib\lrc.olb")
+      (Path "Design Resources" "Library"
+         "e:\pcb\library\allegro_lib\lib\microcontroller.olb")
+      (Path "Design Resources" "Library"
+         "e:\pcb\library\allegro_lib\lib\power_supply.olb")
+      (Path "Design Resources" "Library"
+         "e:\pcb\library\allegro_lib\lib\sensor.olb")
+      (Path "Design Resources" "Library"
+         "e:\pcb\library\allegro_lib\lib\transistor.olb")
+      (Path "PSpice Resources")
+      (Select "Design Resources"
+         "E:\PCB\Project\ESP32-PicoDK\OrCAD\esp32-picodk.dsn" "Design Cache"
+         "JUMPER1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 413 0 1052"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1758 28 1074")
+        (Scroll "-153 -7")
+        (Zoom "121")
+        (Occurrence "/"))
+      (Path "E:\PCB\PROJECT\ESP32-PICODK\ORCAD\ESP32-PICODK.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
